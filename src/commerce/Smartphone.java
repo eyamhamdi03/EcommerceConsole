@@ -81,7 +81,6 @@ public class Smartphone extends Product {
         System.out.println("Enter display size in inches:");
         this.displaySizeInches = scanner.nextDouble();
 
-        super.getProductDetails();
         
         System.out.println("Smartphone details entered successfully!");
     }

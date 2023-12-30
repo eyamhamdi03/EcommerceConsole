@@ -74,7 +74,6 @@ public class Smartwatch extends Product {
         System.out.println("Does it have fitness tracking? (true/false):");
         this.fitnessTracker = scanner.nextBoolean();
 
-        super.getProductDetails();
         
         System.out.println("Smartwatch details entered successfully!");
     }

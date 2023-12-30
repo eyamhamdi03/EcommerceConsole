@@ -20,7 +20,7 @@ public abstract class Product {
         return this.getClass().getSimpleName();
     }
     public Product( String name, double price,String brand,String d , String w,Vendor V) {
-        this.id = ++lastAssignedId; // Nouvel ID unique
+        this.id = ++lastAssignedId;
 
         this.name = name;
         this.price = price;

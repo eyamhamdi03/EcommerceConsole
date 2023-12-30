@@ -33,6 +33,7 @@ public class Console {
         Camera camera2 = new Camera("Camera 2", 599.99, "Brand Y", "Professional camera", "2-year warranty", "8K", "CCD", "Prime", vendor2);
 
         
+        
         inventory.addProductToInventory("Cameras", camera1, 10);
         inventory.addProductToInventory("Cameras", camera2, 15);
 

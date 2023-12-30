@@ -113,6 +113,9 @@ public class Customer extends User {
     
     public void afficherMenu() {
             Scanner scanner = new Scanner(System.in);
+            boolean running = true;
+            while (running)
+            {
 
             System.out.println("Welcome, Customer!");
             System.out.println("MENU:");
@@ -147,6 +150,7 @@ public class Customer extends User {
                     break;
                 
                 case 0 :
+                	running=false ;
                 	Logout();
                 default:
                     System.out.println("Invalid option");
@@ -155,7 +159,7 @@ public class Customer extends User {
             
             
         }
-    
+    }
     public void displayOptions() {
     	Scanner scanner = new Scanner(System.in);
     	int choice;

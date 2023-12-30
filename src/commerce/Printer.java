@@ -52,7 +52,6 @@ public class Printer extends Product {
         System.out.println("Enter print technology:");
         this.printTechnology = scanner.nextLine();
 
-        super.getProductDetails();
         
         System.out.println("Printer details entered successfully!");
     }

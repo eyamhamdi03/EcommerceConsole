@@ -50,7 +50,6 @@ public class Headphone extends Product {
         System.out.println("Enter connectivity:");
         this.connectivity = scanner.nextLine();
 
-        super.getProductDetails();
         
         System.out.println("Headphone details entered successfully!");
     }

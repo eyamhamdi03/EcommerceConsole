@@ -55,7 +55,6 @@ public class Accessories extends Product {
           System.out.println("Enter compatibility:");
           this.compatibility = scanner.nextLine();
 
-          super.getProductDetails(); // Appel de la méthode parent pour les détails supplémentaires
           
           System.out.println("Accessories details entered successfully!");
       }

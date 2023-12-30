@@ -81,8 +81,7 @@ public class Camera extends Product {
     	    System.out.println("Enter lens type:");
     	    this.lensType = scanner.nextLine();
 
-    	    super.getProductDetails();
-    	    
+    	   
     	    System.out.println("Camera details entered successfully!");
     	}
 
