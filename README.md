@@ -1,16 +1,16 @@
 
-Project Overview
+#Project Overview
 The Java-based eCommerce console application I've developed is a testament to robust Object-Oriented Programming principles and comprehensive software design. By meticulously structuring the project into distinct classes, I've successfully realized a feature-rich platform that encompasses a spectrum of functionalities. From user authentication with role-based access to meticulous product management enabling CRUD operations and seamless shopping cart management, the application ensures a smooth user experience. Facilitating the entire shopping journey, it seamlessly transitions from cart to order completion, maintaining meticulous transaction records. Inventory management ensures accurate stock updates, while dynamic product search and filtering empower users to discover and refine their product choices. Moreover, the incorporation of a simulated payment system adds a layer of realism to the shopping experience. Additionally, the optional features, such as the customizable product like list for customers and the admin-exclusive coupon management system, further elevate the application's usability and administrative capabilities. This project stands as a testament to a high-level understanding of OOP principles in Java, manifesting in an all-encompassing eCommerce solution.
 
-Purpose
+#Purpose
 The primary objective of this application is to demonstrate a proficient grasp of Object-Oriented Programming (OOP) principles by effectively managing various classes. Through a command-line interface, the application offers a specialized platform tailored for electronic product enthusiasts. It facilitates the exploration, purchase, and management of electronic items within distinct categories, showcasing a systematic application of different classes to ensure modularity, extensibility, and efficient management of functionalities.
 
-Users
+#Users
 The User abstract class serves as the base blueprint for all user types within the e-commerce application. It encapsulates essential user information and common functionalities used across different user roles.
 The application encompasses three primary user roles, each with specific permissions and capabilities:
 admin :
 The `Admin` class represents the administrator role in the e-commerce application, inheriting functionalities from the `User` class. It provides administrative privileges to manage vendors, customers, products, orders, and coupons within the system.
-
+#User to use
 Email: admin@gmail.com
 Password: admin1234
 Vendors
