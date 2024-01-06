@@ -13,8 +13,11 @@ The `Admin` class represents the administrator role in the e-commerce applicatio
 ### User to use
 Email: admin@gmail.com
 Password: admin1234
+
 Vendors
+
 Role: Product providers
+
 Vendors:
 The `Vendor` class represents a seller in the e-commerce application. It extends the functionalities of the `User` class and encapsulates actions specific to managing products, inventory, and product-related operations.
 
